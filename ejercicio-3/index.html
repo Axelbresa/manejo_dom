@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Ejercicio 3</h1>
+
+    <div id="form">
+      <h2>operaciones</h2>
+      <div class="row">
+        <div class="col">
+          <input
+            class="form-control form-control-lg"
+            type="number"
+            id="numero1"
+            name="num1"
+            placeholder="0"
+            value="0"
+          />
+        </div>
+        <div class="container">
+        <div class="col">
+          <select name="operator" id="operacion" class="form-select form-select-lg">
+            <option value="1">SUMA</option>
+            <option value="2">RESTA</option>
+            <option value="3">MULTIPLICACIÓN</option>
+            <option value="4">DIVISIÓN</option>
+          </select>
+        </div>
+        <div class="col">
+          <input
+            class="form-control form-control-lg"
+            type="number"
+            id="numero2"
+            name="num2"
+            placeholder="0"
+            value="0"
+          />
+        </div>
+        <div class="col">
+          <button type="submit" id="boton" class="btn btn-primary btn-lg">
+            Resolver
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <h2>Resultado: <span id="Resultado">0</span></h2>
+  </main>
+
+  <script src="./main.js"></script>
+  </body>
+</html>
